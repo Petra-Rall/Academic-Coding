@@ -48,6 +48,31 @@ Here’s how things are organized:
 - **Data-Visualization**: Work related to data visualization in **Python**, **R** and **LateX**.
 - **OOP**: Object-Oriented Programming with Java.
 
+## 🛠️ Languages & Tools Used
+
+Here's a quick summary of the programming languages and tools used across the projects:
+
+- **C**: Used in 1st semester for assignments and programming exercises.  
+  ![C](https://img.shields.io/badge/Code-C-blue)
+  
+- **C++**: Applied for projects using **STL** (Standard Template Library) and other C++ specific work in 1st semester.  
+  ![C++](https://img.shields.io/badge/Code-C++-00599C)
+  
+- **Python**: Utilized in 2nd semestes, mainly for data visualization.  
+  ![Python](https://img.shields.io/badge/Code-Python-yellow)
+  
+- **Java**: Primarily used for **OOP** (Object-Oriented Programming) in 2nd semester.  
+  ![Java](https://img.shields.io/badge/Code-Java-red)
+  
+- **R**: Applied in the 2nd semester for data analysis and visualization.  
+  ![R](https://img.shields.io/badge/Code-R-green)
+  
+- **Makefile**: Used in the **MakeaFilePractice** folder under the **KAZ** directory to automate the building of C/C++ programs in 1st semester.  
+  ![Makefile](https://img.shields.io/badge/Tool-Makefile-red)
+  
+- **gdb**: The GNU Debugger is used for debugging C/C++ programs in the **gdb** folder 1st semester.  
+  ![gdb](https://img.shields.io/badge/Tool-GDB-orange)
+
 ---
 
 Feel free to check out the code, and explore the folders for more details on each subject!
