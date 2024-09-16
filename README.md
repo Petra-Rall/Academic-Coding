@@ -82,7 +82,7 @@ Here's a quick summary of the programming languages and tools used across the pr
 
 ---
 
-Feel free to check out the code, and explore the folders for more details on each subject!
+Feel free to check out the code, and explore the folders for more details on each topic!
 
 
 
