@@ -9,33 +9,48 @@ Here’s how things are organized:
 ```
 📂 Academic-Coding/
 │
-├── 📂 1st-Semester/
+├── 📂 1st-Semester📅/ 
 |   |
 │   ├── 📁 ANC/
 |   |   |
-|   |   ├── 📁 C_Programming
-|   |   ├── 📁 Practice
-|   |   └── 📁 STL
+|   |   ├── 📁 C_Programming💻
+|   |   ├── 📁 Practice📝
+|   |   └── 📁 STL📚
 |   |
-│   ├── 📁 Book/
+│   ├── 📁 Book📖/
 |   |
 │   ├── 📁 KAZ/
 |   |   |
-|   |   ├── 📁 MakeaFilePractice
-|   |   └── 📁 gdb
+|   |   ├── 📁 MakeaFilePractice🗂️
+|   |   └── 📁 gdb🛠️
 |   |
-|   └── 📁 misc/
+|   └── 📁 misc🗒️/
 │
-└── 📂 2nd-Semester/
+└── 📂 2nd-Semester📅/
     |
-    ├── 📁 Data-Visualization/
+    ├── 📁 Data-Visualization📊/
     |   |
-    |   ├── 📁 Python/
-    |   └── 📁 R/
+    |   ├── 📁 Python🐍/
+    |   └── 📁 R📈/
     |
-    └── 📁 OOP/
-    
+    └── 📁 OOP♨️/
+```    
 
+### 📅 1st Semester
+
+- **ANC**: Contains assignments and practice code for **C Programming**, **STL**, and general programming exercises.
+- **Book**: Some extra problem solving from C Programming: A Modern Approach by K. N King.
+- **KAZ**: Hands-on practice with **Makefile** and **gdb** (GNU Debugger).
+- **misc**: Miscellaneous files, random experiments.
+
+### 📅 2nd Semester
+
+- **Data-Visualization**: Work related to data visualization in **Python**, **R** and **LateX**.
+- **OOP**: Object-Oriented Programming with Java.
+
+---
+
+Feel free to check out the code, and explore the folders for more details on each subject!
 
 
 
