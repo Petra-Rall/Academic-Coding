@@ -45,7 +45,7 @@ Here’s how things are organized:
 
 ### 📅 2nd Semester
 
-- **Data-Visualization**: Work related to data visualization in **Python**, **R** and **LateX**.
+- **Data-Visualization**: Work related to data visualization in **Python**, **R** and **LateX**. 
 - **OOP**: Object-Oriented Programming with Java.
 
 ## 🛠️ Languages & Tools Used
@@ -72,6 +72,13 @@ Here's a quick summary of the programming languages and tools used across the pr
   
 - **gdb**: The GNU Debugger is used for debugging C/C++ programs in the **gdb** folder 1st semester.  
   ![gdb](https://img.shields.io/badge/Tool-GDB-orange)
+
+## 🔗 Sources
+
+- **C**: C Programming: A Modern Approach by K. N King
+- **Java**: Core Java, Volume I: Fundamentals by Cay S. Horstmann
+- **Python**: w3school
+- **R**: Modern Data Visualization with R by Robert Kabacoff
 
 ---
 
