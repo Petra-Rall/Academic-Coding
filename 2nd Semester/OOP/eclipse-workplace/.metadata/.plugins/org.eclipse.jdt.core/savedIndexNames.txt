@@ -1,8 +1,0 @@
-INDEX VERSION 1.134+D:\Academic-Coding\2nd Semester\OOP\eclipse-workplace\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-1132126187.index
-495363174.index
-2441938283.index
-431791996.index
-3023100672.index
-3003411528.index
