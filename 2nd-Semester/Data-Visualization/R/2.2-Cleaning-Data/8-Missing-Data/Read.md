@@ -46,14 +46,3 @@ Let’s consider what the output might look like. The exact values depend on the
 - **`species`, `sleep_total`, `sleep_rem`, etc.**: These are column names from the `msleep` dataset.
 - **`0.00`, `0.05`, `0.10`, etc.**: These numbers represent the proportion of missing data for each column. For instance, if `sleep_rem` has a proportion of `0.10`, it means that 10% of the values in the `sleep_rem` column are missing.
 
-### Summary
-
-- **Purpose**: This code calculates and displays the proportion of missing values for each column in the `msleep` dataset. This is useful for feature selection because variables with a high proportion of missing values might be candidates for removal, as they may not provide reliable information or may complicate the analysis.
-  
-- **Key Functions**:
-  - `is.na()`: Identifies missing values.
-  - `colSums()`: Sums up missing values per column.
-  - `nrow()`: Provides the number of rows in the dataset.
-  - `round()`: Rounds numeric results for readability.
-
-If you have any further questions or need additional clarifications, feel free to ask!
