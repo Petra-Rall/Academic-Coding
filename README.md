@@ -38,7 +38,7 @@ Here’s how things are organized:
 
 ### 📅 1st Semester
 
-- **ANC**: Contains assignments and practice code for **C Programming**, **STL**, and general programming exercises.
+- **ANC**: Contains practice code for **C Programming**, **STL**, and general programming exercises.
 - **Book**: Some extra problem solving from C Programming: A Modern Approach by K. N King.
 - **KAZ**: Hands-on practice with **Makefile** and **gdb** (GNU Debugger).
 - **misc**: Miscellaneous files, random experiments.
