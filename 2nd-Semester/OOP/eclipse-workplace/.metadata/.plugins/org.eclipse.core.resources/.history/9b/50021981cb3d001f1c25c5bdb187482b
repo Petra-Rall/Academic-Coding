@@ -1,0 +1,20 @@
+package collection_framework;
+
+import java.util.Map;
+
+public class Map00 {
+
+	public static void main(String[] args) {
+		Map<String, Integer> ages = new TreeMap();
+		ages.put("Joe", 57);
+		ages.put("Geneva", 2);
+		ages.put("Vicki", 19);
+		
+		for(String name: ages.keySet()) {
+			int age = ages.get(name);
+			System.out.println(name + " -> "+ age);
+		}
+
+	}
+
+}

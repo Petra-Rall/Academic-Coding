@@ -1,0 +1,10 @@
+package STL;
+
+public class MapSampleCode {
+
+	public static void main(String[] args) {
+		Map<String,Integer> sampleMap=new HashMap<String, Integer>();
+
+	}
+
+}

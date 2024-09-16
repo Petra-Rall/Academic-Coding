@@ -1,0 +1,1 @@
+printf("%d\n%lf", i, f);
