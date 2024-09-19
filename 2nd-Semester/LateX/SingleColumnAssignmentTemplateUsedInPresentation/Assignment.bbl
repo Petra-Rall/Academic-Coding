@@ -1,0 +1,15 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Kopka and Daly}1995]{kopka1995guide}
+H~Kopka and PW~Daly.
+\newblock 1995.
+\newblock A guide to $\{$$\backslash$LaTeX$\}$--document.
+
+\bibitem[\protect\citename{Moniz and Krueger}2017]{moniz2017nested}
+Joel Ruben~Antony Moniz and David Krueger.
+\newblock 2017.
+\newblock Nested lstms.
+\newblock In {\em Asian Conference on Machine Learning (ACML)}, pages 530--544.
+  Springer.
+
+\end{thebibliography}
