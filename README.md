@@ -33,7 +33,7 @@ Here’s how things are organized:
     |   ├── 📁 Python🐍/
     |   └── 📁 R📈/
     |
-    ├── 📁 LaTeX
+    ├── 📁 LaTeX📄/
     |
     └── 📁 OOP♨️/
 ```    
@@ -77,7 +77,7 @@ Here's a quick summary of the programming languages and tools used across the pr
   ![gdb](https://img.shields.io/badge/Tool-GDB-orange)
 
 - **LaTeX**: Used in 2nd Semester for Data Visualization course.
-![LaTeX](https://img.shields.io/badge/Code-LaTeX-blue)
+  ![LaTeX](https://img.shields.io/badge/Code-LaTeX-blue)
 
 ## 🔗 Sources
 
