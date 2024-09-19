@@ -76,9 +76,9 @@ Here's a quick summary of the programming languages and tools used across the pr
 - **gdb**: The GNU Debugger is used for debugging C/C++ programs in the **gdb** folder 1st semester.  
   ![gdb](https://img.shields.io/badge/Tool-GDB-orange)
 
-- **LaTeX**: Used in 2nd Semester for Data Visualization course.
-  ![LaTeX](https://img.shields.io/badge/Code-LaTeX-blue)
-
+- **LaTeX**: Used in 2nd Semester for Data Visualization course.  
+  ![LaTeX](https://img.shields.io/badge/Code-LaTeX-blue) 
+  
 ## 🔗 Sources
 
 - **C**: C Programming: A Modern Approach by K. N King
