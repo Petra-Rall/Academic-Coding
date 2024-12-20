@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.19)  20 SEP 2024 02:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.19)  25 SEP 2024 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -257,8 +257,16 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \tymax=\dimen165
 \TY@tablewidth=\dimen166
 )
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks30
+\float@box=\box65
+\@float@everytoks=\toks31
+\@floatcapt=\box66
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-3.
+5.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -266,39 +274,43 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
 .def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box65
-) (First.aux)
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box67
+) (First.aux
+
+LaTeX Warning: Label `fig:pie' multiply defined.
+
+)
 \openout1 = `First.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count297
 \scratchdimen=\dimen167
-\scratchbox=\box66
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count299
+\scratchbox=\box68
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count300
 \MPscratchDim=\dimen168
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks31
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks33
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
 .sty
@@ -322,51 +334,51 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-4.
+6.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Trying to load font information for U+ifsym on input line 3
-4.
+6.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/fonts/ifsym\uifsym.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
-1.
-(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-1.
-
-(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
+3.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+3.
 
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
@@ -385,36 +397,64 @@ ata/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 <figures/ExampleSlide.pdf, id=28, 476.98201pt x 325.215pt>
 File: figures/ExampleSlide.pdf Graphic file (type pdf)
 <use figures/ExampleSlide.pdf>
-Package pdftex.def Info: figures/ExampleSlide.pdf  used on input line 273.
+Package pdftex.def Info: figures/ExampleSlide.pdf  used on input line 285.
 (pdftex.def)             Requested size: 318.66946pt x 217.27757pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <figures/Pos4.jpg, id=29, 602.25pt x 451.6875pt>
 File: figures/Pos4.jpg Graphic file (type jpg)
 <use figures/Pos4.jpg>
-Package pdftex.def Info: figures/Pos4.jpg  used on input line 284.
+Package pdftex.def Info: figures/Pos4.jpg  used on input line 296.
 (pdftex.def)             Requested size: 182.09485pt x 136.56868pt.
 <figures/Neg3.jpg, id=30, 602.25pt x 451.6875pt>
 File: figures/Neg3.jpg Graphic file (type jpg)
 <use figures/Neg3.jpg>
-Package pdftex.def Info: figures/Neg3.jpg  used on input line 286.
+Package pdftex.def Info: figures/Neg3.jpg  used on input line 298.
 (pdftex.def)             Requested size: 182.09485pt x 136.56868pt.
+<figures/Python-Plot.pdf, id=31, 307.79059pt x 281.56392pt>
+File: figures/Python-Plot.pdf Graphic file (type pdf)
+<use figures/Python-Plot.pdf>
+Package pdftex.def Info: figures/Python-Plot.pdf  used on input line 306.
+(pdftex.def)             Requested size: 246.23279pt x 225.25142pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-[5 <./figures/ExampleSlide.pdf> <./figures/Pos4.jpg> <./figures/Neg3.jpg>]
 
-[6] (First.aux)
+[5]
+<figures/R-Plot.pdf, id=36, 505.89pt x 361.35pt>
+File: figures/R-Plot.pdf Graphic file (type pdf)
+<use figures/R-Plot.pdf>
+Package pdftex.def Info: figures/R-Plot.pdf  used on input line 314.
+(pdftex.def)             Requested size: 404.71254pt x 289.0804pt.
+
+Underfull \vbox (badness 5077) has occurred while \output is active []
+
+
+
+[6 <./figures/ExampleSlide.pdf> <./figures/Pos4.jpg> <./figures/Neg3.jpg> <./fi
+gures/Python-Plot.pdf>]
+
+[7 <./figures/R-Plot.pdf>] (First.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 5548 strings out of 473899
- 84864 string characters out of 5727916
- 487353 words of memory out of 5000000
- 28319 multiletter control sequences out of 15000+600000
+ 5639 strings out of 473899
+ 86501 string characters out of 5727916
+ 487830 words of memory out of 5000000
+ 28406 multiletter control sequences out of 15000+600000
  575493 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,15n,79p,784b,313s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,15n,79p,784b,317s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/public/ifsym/dpi720\ifsym1
 0.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmex10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
@@ -431,9 +471,9 @@ HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/H
 P/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HP/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on First.pdf (6 pages, 326197 bytes).
+Output written on First.pdf (7 pages, 342942 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

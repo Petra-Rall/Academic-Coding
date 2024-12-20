@@ -14,6 +14,7 @@
 \usepackage{graphicx} %for figures
 \graphicspath{{Figures/EPS/}{figures/}} %for figure path so that we don't have to specify the path
 \usepackage{tabulary} %for picture side by side
+\usepackage{float} %for using the [H] option in pie figure
 
 
 \colingfinalcopy %The \colingfinalcopy command is a specific command provided by the coling2020 package to indicate that the document is in its final version, ready for submission. This command typically: Applies Final Formatting, Suppresses Draft-Only Features
@@ -221,6 +222,10 @@ Suppose we are given a rectangle with side lengths $(x+1)$ and $(x+3)$. Then the
 \section{Mathematical Equation and Expression}
 \label{ref:equation}
 \begin{equation}
+\int_{\pi}^{-\pi} f(\theta) \, d\theta
+\end{equation}
+
+\begin{equation}
 e_{t} = h_{t}w_{a}
 \label{eqn:sampleEqn} %this eqn can be envoked using this label
 \end{equation}
@@ -266,6 +271,12 @@ contextual information effectively.
 \begin{itemize}
 \item Have to use figure in pdf format for scalabilty and make sure that the font is embedded in that pdf to make sure the font can be seen even if the font is not available in another pc
 \item Save as pdf from pptx, while at it select `option' and select ISO
+\item Floating Elements: Both tables and figures in LaTeX are "floats," meaning LaTeX tries to place them in optimal positions based on page layout and available space. The !htb placement options (h for "here", t for "top", b for "bottom", and ! for "override LaTeX's preference") give LaTeX some flexibility to move floats around.
+
+\item Space Constraints: If there isn't enough space to place the figure where you specified (e.g., at the top of a page), LaTeX might push it to a later page while placing the table earlier, depending on available room.
+
+\item Ordering Floats: LaTeX tries to optimize the page layout based on what fits best. Even if you specified !htb for both the table and figure, the table might be positioned before the figure if LaTeX determines that this results in a better page flow.
+\item Use the [H] option (from the float package) to enforce that the float appears exactly where it is defined in the code.
 \end{itemize}
 
 
@@ -288,6 +299,21 @@ contextual information effectively.
 \end{tabular}
 \caption{Sample of positive (left) and negative (right) sentiment bearing images.}
 \label{Fig:sampleImage}
+\end{figure}
+
+\begin{figure}[H] %Use the [H] option (from the float package) to enforce that the float appears exactly where it is defined in the code.
+\centering
+\includegraphics[scale=0.8]{Python-Plot.pdf}
+\caption{Pie Chart}
+\label{fig:pie}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.8]{R-Plot.pdf}
+\caption{Pie Chart}
+\label{fig:pie}
 \end{figure}
 
 \section{Table}

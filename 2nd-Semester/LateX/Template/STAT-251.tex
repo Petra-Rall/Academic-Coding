@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage{coling2020} %The coling2020 package is specific to the COLING 2020 conference (International Conference on Computational Linguistics). It defines the formatting and style guidelines required for papers submitted to that conference.
+\usepackage{times} %font
+\usepackage{pdfpages} %needed for hex color
+\usepackage{color} %font color
+\usepackage[misc]{ifsym} %for letter emoji
+\usepackage{amssymb} %for symbols like \blacktriangleright
+\usepackage{enumerate} %for enumerating
+\usepackage[shortlabels]{enumitem} %for labels
+\usepackage[cmex10]{amsmath} %for \begin{equation*}
+\usepackage{amsmath,amssymb,amsfonts} %for \begin{equation*}
+\graphicspath{{Figures/EPS/}{figures/}} %for \begin{split} in eqn
+\usepackage[usestackEOL]{stackengine} %for \begin{split} in eqn
+\usepackage{graphicx} %for figures
+\graphicspath{{Figures/EPS/}{figures/}} %for figure path so that we don't have to specify the path
+\usepackage{tabulary} %for picture side by side
+\usepackage{float} %for using the [H] option in pie figure
+
+
+\colingfinalcopy %The \colingfinalcopy command is a specific command provided by the coling2020 package to indicate that the document is in its final version, ready for submission. This command typically: Applies Final Formatting, Suppresses Draft-Only Features
+
+\newcommand*{\affaddr}[1]{#1} % No op here. Customize it for different styles.
+
+\DeclareMathOperator*{\argmin}{\arg\!\min} 
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+\title{STA 251 Syllabus \\}
+
+\author{Sumaiya Tabassum\\
+ Department of Computer Science and Engineering\\
+ \affaddr{University of Chittagong, Chittagong, Bangladesh}\\
+}
+
+
+\begin{document}
+\maketitle
+\pagestyle{plain}
+
+\section{Data Visualization}
+\begin{itemize}
+\item Histogram / Stack Graph
+\item Line Chart (only mentioneded in class)
+\item Pie Chart (only mentioneded in class)
+\end{itemize}
+
+\section{Counting Principles(see notes)}
+\begin{itemize}
+\item Product Rule
+\item Sum Rule
+\item Division Rule
+\item \emph{Related Topics:}
+\begin{itemize}
+\item Vector Space
+\item Function Space
+\item Balanced Parentheses Problem
+\end{itemize}
+\end{itemize}
+
+\section{Set Theory}
+\begin{itemize}
+\item Ordered Sets
+\item Unordered Sets
+\end{itemize}
+
+\section{Functions}
+\begin{itemize}
+\item One-to-One Functions
+\item Onto Functions
+\item Bijection
+\end{itemize}
+
+\section{Relations}
+\begin{itemize}
+\item Relations (General overview)
+\end{itemize}
+\nopagebreak
+\section{Descriptive Statistics}
+\begin{itemize}
+\item \emph{Measures of Centrality:}
+\begin{itemize}
+\item Mean / Average
+\item Median
+\item Distribution
+\end{itemize}
+\item \emph{Types of Means:}
+\begin{itemize}
+\item Arithmetic Mean
+\item Geometric Mean
+\end{itemize}
+\item \emph{Variability \& Dispersion:}
+\begin{itemize}
+\item Variance
+\item Standard Deviation
+\end{itemize}
+\item Noisy Data
+\end{itemize} 
+
+\section{Probability}
+\begin{itemize}
+\item Sample Space and Events
+\item Proves of Probability
+\item \emph{Probability Axioms:}
+\begin{itemize}
+\item Non-Negativity
+\item Countable Additivity
+\item Normalization
+\end{itemize}
+\item Bayes’ Law
+\item \emph{Independence:}
+\begin{itemize}
+\item Mutually Independent
+\item Pairwise Independent
+\item K-way Independent
+\end{itemize}
+\item \emph{Random Variables:}
+\begin{itemize}
+\item Binomial Random Variable
+\item Geometric Random Variable
+\item Probability Mass Function (PMF)
+\item Cumulative Distribution Function (CDF)
+\end{itemize}
+\item Conditional Probability
+\item Law of total probability
+\item Expectation 
+\item Conditional Expectation
+\item Law of Total Probability
+\item Linearity of Expectation
+\item Variance and Covariance
+\item Covariance from Scatter Plot
+\pagebreak
+\item \emph{Example Problems:}
+\begin{itemize}
+\item Monty Hall Problem
+\item Birthday Problem Paradox
+\item Two-Envelope Problem
+\item Light Bulb Problem
+\item Prisoner Problem
+\item C Program Delay Problem
+\item Hat Check Problem
+\item Coupon Collector's Problem
+\end{itemize}
+\end{itemize} 
+
+\end{document}
