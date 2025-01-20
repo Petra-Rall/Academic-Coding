@@ -1,5 +1,5 @@
 ## Text Files:
-
+setwd("D:\\Academic-Coding\\2nd-Semester\\Data-Visualization\\R\\2.1-Importing-Data")
 library(readr)
 # import data from a comma delimited file
 Salaries <- read_csv("Salaries.csv")

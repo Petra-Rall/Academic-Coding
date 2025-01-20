@@ -1,0 +1,13 @@
+\documentclass{article}
+\usepackage{tikz}
+\title{Equation Graph}
+\author{Sumaiya Tabassum}
+\begin{document}
+	\maketitle
+	\begin{tikzpicture}
+\draw[<-,->,ultra thick](-2,0)--(8,0)node[right]{X-Axis};
+	\draw[<-,->,ultra thick](0,-2)--(0,8)node[above]{y-Axis};
+	\draw[gray,very thin](-2.9,-2.9) grid(8.9,8.9);
+	\draw[domain = -1.5:1.5,smooth,thick,blue,dashed] plot(\x,{4*\x*\x}) node[left]{$y=4x^2$};
+\end{tikzpicture}
+\end{document}

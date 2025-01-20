@@ -1,0 +1,10 @@
+Doc1	Favor	Against
+Doc2	Favor	Favor
+Doc3	Against	Against
+Doc4	Favor	Favor
+Doc5	Against	Favor
+Doc6	Against	Against
+Doc7	Against	Against
+Doc8	Favor	Favor
+Doc9	Favor	Against
+Doc10	Against	Against

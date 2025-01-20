@@ -23,8 +23,6 @@ public class FilePractice {
 			scan.close();
 		}
 			
-			
-	
 			try(BufferedReader reader = new BufferedReader(new FileReader("D:\\Academic-Coding\\2nd Semester\\OOP\\eclipse-workplace\\TheoryExam\\src\\info.txt"))){
 				String line2;
 				while((line2 = reader.readLine())!= null) {

@@ -1,0 +1,2 @@
+CSE311	Std A, Std B, Std C
+CSE312	Std A, Std B, Std C, Std D, Std E 
