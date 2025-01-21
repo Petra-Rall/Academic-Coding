@@ -16,5 +16,3 @@
 \contentsline {subsection}{\numberline {3.1}left side shift of Tree(calign=first):}{4}{}%
 \contentsline {subsection}{\numberline {3.2}Right side shift of Tree(calign=last):}{4}{}%
 \contentsline {subsection}{\numberline {3.3}Align all first child node connected with immediate parent node by straight line:}{5}{}%
-\contentsline {section}{\numberline {4}Practice:}{5}{}%
-\contentsline {subsection}{\numberline {4.1}Practice 01:}{5}{}%

@@ -4,6 +4,7 @@
 \usepackage{xcolor}
 \definecolor{skyblue}{RGB}{135,206,250}
 \usepackage{listings}
+\usepackage{graphicx}
 \title{Graphs with Tikz}
 \author{Credit: https://github.com/HasibLearntogrow/LatexPractice}
 \begin{document}
@@ -203,8 +204,8 @@
 	\node(6) at (2.4,0)[text=black,fill=orange!20,label=\Large 4,draw,scale=2]{6};
 	\node(1) at (3.2,0)[text=black,label=\Large 5,draw,scale=2]{1};
 			
-	\draw[->,>=stealth,very thick,skyblue,bend angle=80,bend left](4.south) to (5.south);
-	\draw[->,>=stealth,thick,orange,bend angle=50,bend right](5.south) to (4.south); 
+	\draw[->,>=stealth,very thick,skyblue,bend left=100](1.75,-0.45) to (0.6,-0.47);
+	\draw[->,>=stealth,thick,orange,bend angle=50,bend right](0.9,-0.47) to (1.5,-0.45); 
 \end{tikzpicture}
 \end{lstlisting}
 
@@ -215,27 +216,27 @@
 			\node(6) at (2.4,0)[text=black,fill=orange!20,label=\Large 4,draw,scale=2]{6};
 			\node(1) at (3.2,0)[text=black,label=\Large 5,draw,scale=2]{1};
 			
-			\draw[->,>=stealth,very thick,skyblue,bend angle=80,bend left](4.south) to (5.south);
-			\draw[->,>=stealth,thick,orange,bend angle=50,bend right](5.south) to (4.south); 
+			\draw[->,>=stealth,very thick,skyblue,bend left=100](1.75,-0.45) to (0.6,-0.47);
+			\draw[->,>=stealth,thick,orange,bend angle=50,bend right](0.9,-0.47) to (1.5,-0.45); 
 		\end{tikzpicture}
 \pagebreak
 		\subsection{Practice 05:}
 \begin{lstlisting}
 \begin{tikzpicture}
 	\node(0) at (0,0)[text=black,fill=skyblue!80,draw,scale=4]{};
-	\node at (0.95,0)[text=black,fill=skyblue!80,draw,scale=4]{};
+	\node at (0.95,0)[text=black,fill=skyblue!80,draw,scale=2.7]{\tiny1};
 	\node(1) at (1.9,0)[text=black,fill=skyblue!80,draw,scale=4]{};
 			
 	\node(2) at (4,0)[text=black,fill=orange!40,draw,scale=4]{};
-	\node at (4.95,0)[text=black,fill=orange!40,draw,scale=4]{};
+	\node at (4.95,0)[text=black,fill=orange!40,draw,scale=2.7]{\tiny2};
 	\node(3) at (5.9,0)[text=black,fill=orange!40,draw,scale=4]{};
 			
 	\node(4) at (8,0)[text=black,fill=skyblue!80,draw,scale=4]{};
-	\node at (8.95,0)[text=black,fill=skyblue!80,draw,scale=4]{};
+	\node at (8.95,0)[text=black,fill=skyblue!80,draw,scale=2.7]{\tiny3};
 	\node(5) at (9.9,0)[text=black,fill=skyblue!80,draw,scale=4]{};
 			
 	\node(6) at (12,0)[text=black,fill=orange!40,draw,scale=4]{};
-	\node at (12.95,0)[text=black,fill=orange!40,draw,scale=4]{};
+	\node at (12.95,0)[text=black,fill=orange!40,draw,scale=2.7]{\tiny4};
 	\node(7) at (13.9,0)[text=black,fill=orange!40,draw,scale=4]{};
 			
 			
@@ -253,19 +254,19 @@
 
 		\begin{tikzpicture}
 			\node(0) at (0,0)[text=black,fill=skyblue!80,draw,scale=4]{};
-			\node at (0.95,0)[text=black,fill=skyblue!80,draw,scale=4]{};
+			\node at (0.95,0)[text=black,fill=skyblue!80,draw,scale=2.7]{\tiny1};
 			\node(1) at (1.9,0)[text=black,fill=skyblue!80,draw,scale=4]{};
 			
 			\node(2) at (4,0)[text=black,fill=orange!40,draw,scale=4]{};
-			\node at (4.95,0)[text=black,fill=orange!40,draw,scale=4]{};
+			\node at (4.95,0)[text=black,fill=orange!40,draw,scale=2.7]{\tiny2};
 			\node(3) at (5.9,0)[text=black,fill=orange!40,draw,scale=4]{};
 			
 			\node(4) at (8,0)[text=black,fill=skyblue!80,draw,scale=4]{};
-			\node at (8.95,0)[text=black,fill=skyblue!80,draw,scale=4]{};
+			\node at (8.95,0)[text=black,fill=skyblue!80,draw,scale=2.7]{\tiny3};
 			\node(5) at (9.9,0)[text=black,fill=skyblue!80,draw,scale=4]{};
 			
 			\node(6) at (12,0)[text=black,fill=orange!40,draw,scale=4]{};
-			\node at (12.95,0)[text=black,fill=orange!40,draw,scale=4]{};
+			\node at (12.95,0)[text=black,fill=orange!40,draw,scale=2.7]{\tiny4};
 			\node(7) at (13.9,0)[text=black,fill=orange!40,draw,scale=4]{};
 			
 			
@@ -280,6 +281,10 @@
 			\draw[->](7.north) to(13.9,1)to(-1,1) to (-1,0)to(0.west);
 		\end{tikzpicture}
 		
-		
+\begin{figure}
+\centering
+\includegraphics[scale=0.8]{R-plot.pdf}
+\label{fig:Bar Chart}
+\end{figure}		
 
 \end{document}

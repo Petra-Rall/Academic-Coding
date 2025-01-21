@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.20)  22 DEC 2024 07:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.20)  21 JAN 2025 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -356,11 +356,6 @@ LaTeX Font Info:    Trying to load font information for U+ifsym on input line 3
 6.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/fonts/ifsym\uifsym.fd)
-(First.toc)
-\tf@toc=\write3
-\openout3 = `First.toc'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -453,10 +448,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5665 strings out of 473650
- 86849 string characters out of 5719380
+ 5658 strings out of 473650
+ 86722 string characters out of 5719380
  490388 words of memory out of 5000000
- 28664 multiletter control sequences out of 15000+600000
+ 28660 multiletter control sequences out of 15000+600000
  575493 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,15n,79p,784b,317s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -476,7 +471,7 @@ HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/H
 P/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HP/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on First.pdf (7 pages, 342880 bytes).
+Output written on First.pdf (7 pages, 342943 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.20)  21 JAN 2025 08:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.20)  21 JAN 2025 09:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,20 +405,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (Graphs.aux)
 \openout1 = `Graphs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -445,11 +445,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count306
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 13.
  (Graphs.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -504,26 +504,42 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 [4]
 
 [5]
-Overfull \hbox (125.64389pt too wide) in paragraph at lines 281--282
+Overfull \hbox (125.64389pt too wide) in paragraph at lines 282--283
 [][] 
+ []
+
+<R-plot.pdf, id=30, 505.89pt x 361.35pt>
+File: R-plot.pdf Graphic file (type pdf)
+<use R-plot.pdf>
+Package pdftex.def Info: R-plot.pdf  used on input line 286.
+(pdftex.def)             Requested size: 404.71254pt x 289.0804pt.
+
+Overfull \hbox (59.71254pt too wide) in paragraph at lines 286--288
+ [][] 
  []
 
 
 
-[6] (Graphs.aux)
+[6]
+
+[7 <./R-plot.pdf>] (Graphs.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 15325 strings out of 473650
- 303929 string characters out of 5719380
- 1121147 words of memory out of 5000000
- 38213 multiletter control sequences out of 15000+600000
+ 15339 strings out of 473650
+ 304224 string characters out of 5719380
+ 1121178 words of memory out of 5000000
+ 38227 multiletter control sequences out of 15000+600000
  562957 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,417b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,7n,107p,417b,2300s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt080
 0.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
@@ -535,9 +551,9 @@ ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/HP/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/HP/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Graphs.pdf (6 pages, 131746 bytes).
+Output written on Graphs.pdf (7 pages, 137099 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
