@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Create Node and Color:}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Use Various Shapes:}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Normal Node:}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Circle Shaped Node:}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.3}Rectangle Shaped Node}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.4}All shape in one tress:}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Coloring of node:}{2}{}%
+\contentsline {section}{\numberline {2}Simple Tree:}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Parent Node: A and Child Node B,C:}{2}{}%
+\contentsline {subsection}{\numberline {2.2}More node with tree :}{3}{}%
+\contentsline {subsection}{\numberline {2.3}More node with tree with a single shape(Circle):}{3}{}%
+\contentsline {subsection}{\numberline {2.4}More node with tree with a single shape(Rectangle):}{3}{}%
+\contentsline {subsection}{\numberline {2.5}Draw Horizontal tree:}{4}{}%
+\contentsline {subsection}{\numberline {2.6}Edge Label:}{4}{}%
+\contentsline {section}{\numberline {3}Shifting of Tree}{4}{}%
+\contentsline {subsection}{\numberline {3.1}left side shift of Tree(calign=first):}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Right side shift of Tree(calign=last):}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Align all first child node connected with immediate parent node by straight line:}{5}{}%
+\contentsline {section}{\numberline {4}Practice:}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Practice 01:}{5}{}%

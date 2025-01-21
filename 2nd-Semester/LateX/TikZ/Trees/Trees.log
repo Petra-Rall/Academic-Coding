@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.20)  21 JAN 2025 03:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.20)  21 JAN 2025 03:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./BasicTikz.tex
-(BasicTikz.tex
+**./Trees.tex
+(Trees.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -23,6 +23,9 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 )
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest.sty
+Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
+
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
@@ -361,42 +364,203 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ibraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.callouts.code.tex))
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgf
+libraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box63
+\pgfnodeparttwobox=\box64
+\pgfnodepartthreebox=\box65
+\pgfnodepartfourbox=\box66
+\pgfnodeparttwentybox=\box67
+\pgfnodepartnineteenbox=\box68
+\pgfnodeparteighteenbox=\box69
+\pgfnodepartseventeenbox=\box70
+\pgfnodepartsixteenbox=\box71
+\pgfnodepartfifteenbox=\box72
+\pgfnodepartfourteenbox=\box73
+\pgfnodepartthirteenbox=\box74
+\pgfnodeparttwelvebox=\box75
+\pgfnodepartelevenbox=\box76
+\pgfnodeparttenbox=\box77
+\pgfnodepartninebox=\box78
+\pgfnodeparteightbox=\box79
+\pgfnodepartsevenbox=\box80
+\pgfnodepartsixbox=\box81
+\pgfnodepartfivebox=\box82
+)))
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/l
+ibraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrary
+intersections.code.tex
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrary
+fpu.code.tex)
+\pgf@intersect@solutions=\count291
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks30
+\pgfopts@list@add@b@toks=\toks31
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count292
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/elocalloc\elocalloc.sty
+Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks32
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.s
+ty (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-11-02 L3 programming layer (loader) 
+
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
 .def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count291
-\l__pdf_internal_box=\box63
-) (BasicTikz.aux)
-\openout1 = `BasicTikz.aux'.
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box83
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/inlinedef\inlinedef.sty
+Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
+\ID@toks=\toks33
+\ID@count=\count294
+)
+\ID@usercommands=\toks34
+\safeloop@depth=\count295
+\safeRKloop@depth=\count296
+\forest@temp@dimen=\dimen194
+\forest@temp@count=\count297
+\forest@n=\count298
+\forest@temp@global@count=\count299
+\forest@temp@toks=\toks35
+\forest@temparray@M=\count300
+\forest@temparray@N=\count301
+\forest@global@temparray@M=\count302
+\forest@global@temparray@N=\count303
+\forest@isnum@count=\count304
+\forest@isdim@nonintpart=\count305
+\forest@isdim@dimen=\dimen195
+\forest@sort@m=\count306
+\forest@sort@k=\count307
+\forest@sort@p=\count308
+\bracket@content=\toks36
+\bracket@afterthought=\toks37
+\forest@node@maxid=\count309
+\forest@process@left@M=\count310
+\forest@process@left@N=\count311
+\forest@process@right@M=\count312
+\forest@process@right@N=\count313
+\forest@process@saved@M=\count314
+\forest@process@saved@N=\count315
+\forest@process@result@M=\count316
+\forest@process@result@N=\count317
+\forest@process@n=\count318
+\forest@nodewalk@branch@toks=\toks38
+\forest@nodewalk@shortsteps@resolution=\toks39
+\forest@do@dynamics=\toks40
+\forest@box=\box84
+\forest@xg=\dimen196
+\forest@yg=\dimen197
+\forest@xs=\dimen198
+\forest@ys=\dimen199
+\forest@pi@toks=\toks41
+\forest@segment@toks=\toks42
+\forest@PIi@toks=\toks43
+\forest@PIii@toks=\toks44
+\forest@copy@in=\read3
+\forest@copy@out=\write4
+\forest@externalize@max@outer@n=\count319
+\forest@externalize@inner@n=\count320
+)
+(Trees.aux)
+\openout1 = `Trees.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen194
-\scratchbox=\box64
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen195
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count321
+\scratchdimen=\dimen256
+\scratchbox=\box85
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen257
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks46
 )
 (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
 .sty
@@ -408,45 +572,59 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
+(Font)              <6> on input line 7.
+ (Trees.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write5
+\openout5 = `Trees.toc'.
+
 
 
 [1
 
 {C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Missing character: There is no ; in font nullfont!
 
-[2]
+
+[2
+
+]
 
 [3]
 
 [4]
 
-[5] (BasicTikz.aux)
+[5] (Trees.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11832 strings out of 473650
- 250558 string characters out of 5719380
- 608222 words of memory out of 5000000
- 34766 multiletter control sequences out of 15000+600000
- 561709 words of font info for 48 fonts, out of 8000000 for 9000
+ 25193 strings out of 473650
+ 601968 string characters out of 5719380
+ 984112 words of memory out of 5000000
+ 48037 multiletter control sequences out of 15000+600000
+ 562324 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,422b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,9n,121p,1600b,2260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr17.pfb>
-Output written on BasicTikz.pdf (5 pages, 58914 bytes).
+x10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr17.pfb>
+Output written on Trees.pdf (5 pages, 93132 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
