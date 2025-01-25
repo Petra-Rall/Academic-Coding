@@ -1,4 +1,0 @@
-\contentsline {section}{\numberline {1}Practices:}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Practice 01:}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Practice 02:}{3}{}%
-\contentsline {subsection}{\numberline {1.3}Practice 05:}{3}{}%

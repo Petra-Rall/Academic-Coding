@@ -1,5 +1,0 @@
-\contentsline {section}{\numberline {1}Cosine Similarity}{2}{}%
-\contentsline {section}{\numberline {2}Jaccard Similarity}{3}{}%
-\contentsline {section}{\numberline {3}SMC}{3}{}%
-\contentsline {section}{\numberline {4}FileProblem}{4}{}%
-\contentsline {section}{\numberline {5}V1OOP:One(Course\&Students)}{6}{}%
