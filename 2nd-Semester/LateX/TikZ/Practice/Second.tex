@@ -1,0 +1,38 @@
+\documentclass[a4paper, 10pt] {article}
+\usepackage{tikz}
+\usepackage[margin = 1cm]{geometry}
+
+\begin{document}
+\centering
+    \begin{tikzpicture}
+        \node (a) at (0,0) {Head};
+
+        \node [draw, rectangle, minimum width = 60pt, minimum height = 20pt] (b) at (60pt, 6pt) {5};
+        \draw (b.west) ++(20pt, 10pt) -- ++(0pt, -20pt);
+        \draw (b.west) ++(40pt, 10pt) -- ++(0pt, -20pt);
+
+        \node [draw, rectangle, minimum width = 60pt, minimum height = 20pt] (c) at (150pt, 6pt) {9};
+        \draw (c.west) ++(20pt, 10pt) -- ++(0pt, -20pt);
+        \draw (c.west) ++(40pt, 10pt) -- ++(0pt, -20pt);
+
+        \node [draw, rectangle, minimum width = 60pt, minimum height = 20pt] (d) at (240pt, 6pt) {16};
+        \draw (d.west) ++(20pt, 10pt) -- ++(0pt, -20pt);
+        \draw (d.west) ++(40pt, 10pt) -- ++(0pt, -20pt);
+
+        \node [draw, rectangle, minimum width = 60pt, minimum height = 20pt] (e) at (330pt, 6pt) {4};
+        \draw (e.west) ++(20pt, 10pt) -- ++(0pt, -20pt);
+        \draw (e.west) ++(40pt, 10pt) -- ++(0pt, -20pt);
+        
+        \draw [->, > = stealth, line width = 1pt] (a) -- (b.west |- 0pt, 0pt);  
+        \draw [->, > = stealth, line width = 1pt] (b.east |- 0pt, 0pt) -- (c.west |- 0pt, 0pt);  
+        \draw [->, > = stealth, line width = 1pt] (c.east |- 0pt, 0pt) -- (d.west |- 0pt, 0pt);  
+        \draw [->, > = stealth, line width = 1pt] (d.east |- 0pt, 0pt) -- (e.west |- 0pt, 0pt);  
+        \draw [->, > = stealth, line width = 1pt] (c.west |- 0pt, 10pt) -- (b.east |- 0pt, 10pt);  
+        \draw [->, > = stealth, line width = 1pt] (d.west |- 0pt, 10pt) -- (c.east |- 0pt, 10pt);  
+        \draw [->, > = stealth, line width = 1pt] (e.west |- 0pt, 10pt) -- (d.east |- 0pt, 10pt);  
+        
+        \draw [->, > = stealth, line width = 1pt, rounded corners = 5pt] (40pt, 0pt) -- (40pt, -10pt) -- (370pt, -10pt) -- (370pt, 0pt) -- (e.east |- 0pt, 0pt);      
+        \draw [->, > = stealth, line width = 1pt, rounded corners = 5pt] (350pt, 10pt) -- (350pt, 22pt) -- (20pt, 22pt) -- (20pt, 10pt) -- (b.west |- 0pt, 10pt);      
+    
+    \end{tikzpicture}
+\end{document}

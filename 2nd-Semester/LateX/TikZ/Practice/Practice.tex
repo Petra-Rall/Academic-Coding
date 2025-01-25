@@ -93,6 +93,7 @@
 \end{lstlisting}
 
 		\begin{tikzpicture}
+			\node at (-1,0) {$L.nil$};
 			\node(2) at (0,0)[text=black,fill=orange!20,label=\Large1,draw,scale=2]{2};
 			\node(5) at (0.8,0)[text=black,fill=orange!20,label=\Large2,draw,scale=2]{5};
 			\node(4) at (1.6,0)[text=black,fill=skyblue!80,label=\Large 3,draw,scale=2]{4};
@@ -115,7 +116,7 @@
 	\node(3) at (5.9,0)[text=black,fill=orange!40,draw,scale=4]{};
 			
 	\node(4) at (8,0)[text=black,fill=skyblue!80,draw,scale=4]{};
-	\node at (8.95,0)[text=black,fill=skyblue!80,draw,scale=2.7]{\tiny3};
+	\node at (8.95,0)[text=black,fill=skyblue!80,minimum width = 0.95cm, minimum height=0.95cm,draw,]{3};
 	\node(5) at (9.9,0)[text=black,fill=skyblue!80,draw,scale=4]{};
 			
 	\node(6) at (12,0)[text=black,fill=orange!40,draw,scale=4]{};
@@ -130,8 +131,9 @@
 	\draw[->,>=stealth,pos=1](10.35,0.2) to (11.5,0.2);
 	\draw[->,>=stealth,pos=1](11.5,-0.2) to (10.35,-0.2);
 			
-	\draw[->](0.south) to(0,-1)to(15,-1) to (15,0)to(7.east);
-	\draw[->](7.north) to(13.9,1)to(-1,1) to (-1,0)to(0.west);
+	\draw[->, rounded corners](0.south) to(0,-1)to(15,-1) to (15,0)to(7.east);
+	\draw[->, rounded corners](7.north) to(13.9,1)to(-1,1) to (-1,0)to(0.west);
+\end{tikzpicture}
 \end{lstlisting}
 
 
@@ -145,7 +147,7 @@
 			\node(3) at (5.9,0)[text=black,fill=orange!40,draw,scale=4]{};
 			
 			\node(4) at (8,0)[text=black,fill=skyblue!80,draw,scale=4]{};
-			\node at (8.95,0)[text=black,fill=skyblue!80,draw,scale=2.7]{\tiny3};
+			\node at (8.95,0)[text=black,fill=skyblue!80,minimum width = 0.95cm, minimum height=0.95cm,draw,]{3};
 			\node(5) at (9.9,0)[text=black,fill=skyblue!80,draw,scale=4]{};
 			
 			\node(6) at (12,0)[text=black,fill=orange!40,draw,scale=4]{};
@@ -160,8 +162,8 @@
 			\draw[->,>=stealth,pos=1](10.35,0.2) to (11.5,0.2);
 			\draw[->,>=stealth,pos=1](11.5,-0.2) to (10.35,-0.2);
 			
-			\draw[->](0.south) to(0,-1)to(15,-1) to (15,0)to(7.east);
-			\draw[->](7.north) to(13.9,1)to(-1,1) to (-1,0)to(0.west);
+			\draw[->, rounded corners](0.south) to(0,-1)to(15,-1) to (15,0)to(7.east);
+			\draw[->, rounded corners](7.north) to(13.9,1)to(-1,1) to (-1,0)to(0.west);
 		\end{tikzpicture}
 		
 		

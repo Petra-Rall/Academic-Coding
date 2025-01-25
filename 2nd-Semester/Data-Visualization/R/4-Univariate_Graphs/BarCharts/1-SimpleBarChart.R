@@ -14,5 +14,7 @@ ggplot(Marriage, aes(x=race))+
 # that technically do not have an area, such as points, lines, and borders.
 
 ggplot(Marriage, aes(x=race))+
-  geom_bar(fill="cornflowerblue", color="black")+
+  geom_bar(fill="#1AC9E6", color="#1A7B8F")+
+theme(text = element_text(color = "#241C1C"))+  # Legend title
   labs(x="Race", y="Frequency", title="Participants by race")
+
