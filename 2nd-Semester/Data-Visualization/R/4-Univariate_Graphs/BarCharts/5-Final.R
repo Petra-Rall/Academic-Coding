@@ -1,5 +1,7 @@
 library(dplyr)
+library(ggplot2)
 library(scales)
+data(Marriage, package="mosaicData")
 plotdata <- Marriage %>%
   count(race) %>%
   mutate(pct=n/sum(n),
