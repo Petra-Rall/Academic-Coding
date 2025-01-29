@@ -1,5 +1,6 @@
 # calculate number of participants in each race category
 library(dplyr)
+data(Marriage, package="mosaicData")
 plotdata <-Marriage %>% count(race)
 
 # plot the bars in ascending order
