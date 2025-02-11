@@ -8,12 +8,6 @@
         "span": "cpp",
         "regex": "cpp",
         "utility": "cpp",
-        "valarray": "cpp",
-        "iostream": "cpp",
-        "ostream": "cpp",
-        "chrono": "cpp",
-        "deque": "cpp",
-        "string": "cpp",
-        "vector": "cpp"
+        "valarray": "cpp"
     }
 }
