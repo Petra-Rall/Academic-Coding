@@ -17,7 +17,7 @@ void CountingSort(vector<int> &arr, int k){
         c[i] += c[i-1];
     }
 
-    //outpur array b from c
+    //output array b from c
     for(int j = arr.size()-1; j>=0; j--){
         b[c[arr[j]] - 1] = arr[j];
         c[arr[j]]--;
