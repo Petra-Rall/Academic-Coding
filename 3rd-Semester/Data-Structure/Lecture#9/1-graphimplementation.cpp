@@ -25,3 +25,14 @@ int main(){
         cout << endl; 
     }
 }
+
+/*2D Vector (vector<vector<int>>)
+Dynamic: Both dimensions (rows and columns) can be resized dynamically.
+Usage: Suitable when the number of vertices is not known at compile time or can change.
+Syntax: vector<vector<int>> adjList(vertices);
+
+Array of Vectors (vector<int> adj[])
+Fixed Outer Dimension: The number of rows (vertices) is fixed at compile time.
+Dynamic Inner Dimension: The number of columns (edges per vertex) can change dynamically.
+Usage: Suitable when the number of vertices is known and fixed at compile time.
+Syntax: vector<int> adj[n+1];*/

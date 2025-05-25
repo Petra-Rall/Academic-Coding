@@ -65,7 +65,7 @@ stack<Point> GrahamScan(vector<Point> &p) {
         s.push(p[0]);
         return s;
     }
-    Point ref = findRef(p); // Find reference point (lowest y, then x)
+    Point reff = findRef(p); // Find reference point (lowest y, then x)
     sort(p.begin(), p.end(), compare); // Sort points based on polar angle
    
     // If two or more points make same angle with p0,

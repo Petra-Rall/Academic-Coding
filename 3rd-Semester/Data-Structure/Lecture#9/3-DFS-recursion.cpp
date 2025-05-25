@@ -44,3 +44,7 @@ int main(){
     }
     return 0;
 }
+
+//Space Complexity: Approx O(n)
+//Time Complexity: Nodes + summation of degrees = O(n) + (2*E) 
+//

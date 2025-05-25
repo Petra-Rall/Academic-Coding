@@ -61,7 +61,7 @@ int orientation(Point p, Point q, Point r) {
 
 // Implements the Graham Scan algorithm to find the convex hull
 stack<Point> GrahamScan(vector<Point> &p) {
-    Point ref = findRef(p); // Find reference point (lowest y, then x)
+    Point reff = findRef(p); // Find reference point (lowest y, then x)
     sort(p.begin(), p.end(), compare); // Sort points based on polar angle
 
     /* If only the furthest collinear point be counted:

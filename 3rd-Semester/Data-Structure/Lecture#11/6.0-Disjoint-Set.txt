@@ -1,0 +1,2 @@
+-> Finds if any two nodes are in the same component in constant time
+-> Used for dynamic graphs ( graphs that keeps chaging)

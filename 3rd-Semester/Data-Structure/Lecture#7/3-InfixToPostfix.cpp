@@ -42,7 +42,7 @@ int main(){
             s.push(c);
         }
         else if(precedence(c) < precedence(s.top())){
-            while(!s.empty() && s.top()!= '(' && precedence(c) < precedence(s.top()) && s.top()!= '('){
+            while(!s.empty() && s.top()!= '(' && precedence(c) < precedence(s.top())){
                 cout << s.top();
                 s.pop();
             }
