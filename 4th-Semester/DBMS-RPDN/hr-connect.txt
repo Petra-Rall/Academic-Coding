@@ -1,0 +1,2 @@
+sqlplus hr/annoying@localhost:1521/FREEPDB1
+@D:\Academic-Coding\4th-Semester\DBMS-RPDN
