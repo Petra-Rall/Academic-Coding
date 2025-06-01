@@ -1,0 +1,38 @@
+digraph {
+	rankdir=TB size="8,10"
+	node [shape=box]
+	A [label="Press Push Button to Start Session"]
+	B [label="Initialize Timer (e.g., 25 mins)
+Start Logging to SD Card"]
+	C [label="Display Countdown on OLED"]
+	D [label="Monitor Sensors:
+- FSR: Seated?
+- LDR: Phone light?
+- Vibration: Phone buzz?"]
+	E [label="Distraction Detected?
+(Any sensor triggered)"]
+	F [label="Buzzer Alarm On
+Timer Stop
+Log Event"]
+	J [label="Distraction Removed?"]
+	K [label="Timer Start"]
+	G [label="Session Time Over?"]
+	H [label="End Session
+Log Session Stats to SD"]
+	I [label="Display Summary on OLED
+Wait for Next Start"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F [label=Yes]
+	F -> J
+	J -> K [label=Yes]
+	J -> F [label=No]
+	K -> G [style=dashed]
+	E -> G [label=No constraint=false]
+	F -> G [style=dashed]
+	G -> H [label=Yes]
+	G -> D [label=No style=dashed]
+	H -> I
+}
