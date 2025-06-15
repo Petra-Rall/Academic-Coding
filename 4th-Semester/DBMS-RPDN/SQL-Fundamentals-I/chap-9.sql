@@ -7,7 +7,7 @@ DESCRIBE dept;
 ---------------2--------------------
 INSERt INTO dept
     SELECT department_id, department_name
-    FROM hr.departments;
+    FROM departments;
 
 ---------------3--------------------
 CREATE TABLE EMP
@@ -28,7 +28,7 @@ FROM user_tables
 WHERE table_name IN ('DEPT', 'EMP');
 ---------------6--------------------
 CREATE TABLE employees2 AS
-SELECT employee_id id, first_name, last_name, salary, department_id department_id
+SELECT employee_id id, first_name, last_name, salary, department_id dept_id
 FROM hr.employees;
 ---------------7--------------------
 DROP TABLE emp;
@@ -48,5 +48,10 @@ DROP COLUMN first_name;
 
 DESCRIBE emp;
 ---------------11--------------------
-
+ALTER TABLE emp
+SET UNUSED (dept_id);
+DESCRIBE emp;
 ---------------12--------------------
+ALTER TABLE emp
+DROP UNUSED COLUMNS;
+DESCRIBE emp;
